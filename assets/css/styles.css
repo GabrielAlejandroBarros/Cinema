@@ -1,0 +1,88 @@
+.titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto 0%;
+    margin-top: 2vh;
+    font-weight: bolder;
+}
+
+body{    
+    color:black;
+    background-color: red;
+}
+header{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    border-bottom: solid whitesmoke .5vh;
+}
+
+.anchoCarrusel{   
+    display: grid;
+    place-content: center;
+    margin: 0% auto;
+    width: 90%;
+    height: 40%;
+}
+.sizeImgCarru{
+    
+    margin: 0%auto;
+    width: 100%;
+    height: 40%;
+}
+
+.salas{ 
+    margin-top: 2%;
+    color: whitesmoke;
+    display: flex;
+    background-color: black;
+    border-bottom: solid whitesmoke .5vh;
+    border-top: solid whitesmoke .5vh;
+}
+
+.estrenos_Margen{
+    margin-right:5%; margin-left:5%;
+}
+.spaceCards{
+    color:whitesmoke;
+    background-color:black;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    transition: .5s;
+}
+.imagenBorder{
+    border: solid whitesmoke .5vh;
+}
+.spaceCards:hover{
+    scale: calc(1.05);
+}
+.reg{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    align-items: center;
+    border:solid whitesmoke .5vh ;
+    border-radius: 2px;
+}
+.registrarse{
+    color:whitesmoke;
+}
+
+
+.botonSubir{
+    position: fixed;
+    bottom:6%;
+    right:0;
+}
+footer{
+    border-top: solid whitesmoke .5vh;
+    background-color: black;
+}

@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cinema</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+    <header class="textoCabecera">
+      <nav>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Incio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">Cartelera</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#estrenos">Próximos estrenos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <main>
+        <article>
+          <!-- carrusel de peliculas en estreno-->    
+          <h1 id="#inicio" class="titulo">CARTELERA</h1>
+          <div class="anchoCarrusel">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/barbie.jpg" class="d-block w-100 rounded mx-auto d-block sizeImgCarru" alt="POSTER DE LA PELICULA 'Barbie'">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/megalodon.jpg" class="d-block w-100 rounded mx-auto d-block sizeImgCarru" alt="POSTER DE LA PELICULA 'Megalodon 2'">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/monja.jpg" class="d-block w-100 rounded mx-auto d-block sizeImgCarru" alt="POSTER DE LA PELICULA 'La monja 2'">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div> 
+          </div>
+        </article>
+        <article>
+          <!-- inicio Cards de proximos estrenos -->
+          <h2 class="text-center titulo" id="#estrenos">PROXIMOS ESTRENOS</h2>
+          <div class="card-group estrenos_Margen">
+            <div class="card spaceCards">
+              <img src="assets/img/sawx.jpg" class="card-img-top imagenBorder" alt="poster de la pelicula saw 10" height="450vh">
+              <div class="card-body imagenBorder">
+                <h5 class="card-title centrar">SAW X: EL JUEGO DEL MIEDO</h5>
+                <a href="https://www.youtube.com/watch?v=cK16kYQphTg" target="_blank" class="btn btn-primary centrar">Ir al trailer de esta pelicula.</a>
+                <p class="card-text">John Kramer (Tobin Bell) está de vuelta. La entrega más perturbadora de la franquicia de SAW explora 
+                  el capítulo nunca antes contado del juego más personal de Jigsaw. Toma lugar entre los eventos ocurridos de SAW I 
+                  (El juego del miedo) y SAW II (El juego del miedo 2), un enfermo y desesperado John viaja a México por un arriesgado y 
+                  experimental procedimiento médico con la esperanza de encontrar milagrosamente una cura para su cáncer – solo para 
+                  descubrir que toda la operación es una estafa y defrauda a los más vulnerables. Armado de un nuevo propósito, 
+                  el infame asesino serial regresa a su trabajo, intercambiando papeles con los estafadores en su característico estilo 
+                  visceral a través de tortuosas, trastornadas e ingeniosas trampas.</p>
+              </div>
+            </div>
+            <div class="card spaceCards" >
+              <img src="assets/img/fnaf.jpg" class="card-img-top imagenBorder" alt="poster de la pelicula five nights at FREDDY´S" height="450vh" >
+              <div class="card-body imagenBorder">
+                <h5 class="card-title centrar">FIVE NIGHT´S AT FREDDY´S</h5>          
+                <a href="https://www.youtube.com/watch?v=h6OcRfZfHs8"  target="_blank" class="btn btn-primary centrar">Ir al trailer de esta pelicula.</a>
+                <p class="card-text">El aterrador juego de horror se convierte en un evento cinematográfico escalofriante, ya que Blumhouse, productor de M3GAN, El Teléfono Negro y El Hombre Invisible, lleva Five Nights at Freddy's a la pantalla grande.</p>
+              </div>
+            </div>
+            <div class="card spaceCards">
+              <img src="assets/img/exorcista.jpg" class="card-img-top imagenBorder" alt="poster de la pelicula el exorcista:creyentes" height="450vh">
+              <div class="card-body imagenBorder">
+                <h5 class="card-title centrar">EL EXORCISTA: CREYENTES</h5>          
+                <a href="https://www.youtube.com/watch?v=lziHAdN_7k8" target="_blank" class="btn btn-primary centrar">Ir al trailer de esta pelicula.</a>
+                <p class="card-text">Hace exactamente 50 años este otoño, la película de terror más aterradora de la historia llegó a las pantallas, impactando a la audiencia de todo el mundo. Este año, en octubre, comienza un nuevo capítulo. De Blumhouse y el director David Gordon Green, quienes rompieron el statu quo con la resurrección de la franquicia de Halloween, llega "El Exorcista: Creyentes".</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <!-- salas -->
+          <div class="card mb-3 salas" >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="assets/img/salacine.jpg" class="img-fluid rounded-start " alt="Imagen de la sala de cine.">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title titulo">Nuestras salas</h5>
+                  <p class="card-text">
+                    Cinema entiende al cine como una experiencia sensorial, en donde el espectador 
+                    puede disfrutar de seleccionados productos culturales que son ofrecidos en 
+                    diferentes pantallas de las principales ciudades argentinas.
+                    Es por ello que, durante años, se ha posicionado como líder en la industria cinematográfica, 
+                    con más de 80 salas equipadas con sistema de proyección digital que permiten 
+                    la exhibición de películas en distintas dimensiones.
+                    Desde siempre, la empresa Cinema se ha especializado en transmitir el 
+                    conocimiento sobre nuevas tecnologías y políticas de marketing, 
+                    para así brindar las herramientas necesarias a las empresas que asesora, 
+                    posicionándolas dentro de los parámetros más avanzados a nivel mundial.           
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <!-- Registrarse-->
+            
+          <div class="reg d-inline-flex p-2">
+              <h3 class="registrarse">Registrate para recibir notificaciones de nuevos entrenos y ofertas</h3>
+                <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Correo electronico</label>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Contraseña</label>
+              </div>    
+            </div>
+
+            <!-- boton que esta fijo y va al inicio-->
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="5%" height="5%" fill="currentColor" class="bi bi-arrow-up-circle-fill botonSubir" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+              </svg>
+            </a>
+        </article>
+      </main>
+  </section>
+
+    <footer>      
+        <ul class="nav">
+          <li class="nav-item pad">
+            <a class="nav-link active" aria-current="page" href="#">Términos y condiciones</a>
+          </li>
+          <li class="nav-item pad">
+            <a class="nav-link" href="">Privacidad</a>
+          </li>
+          <li class="nav-item pad">
+            <a class="nav-link" href="">Ayuda</a>
+          </li>
+        </ul>        
+    </footer>
+  
+  </body>
+</html>
