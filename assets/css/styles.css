@@ -17,7 +17,9 @@ header{
     background-color: black;
     border-bottom: solid whitesmoke .5vh;
 }
-
+.colors{
+    color: whitesmoke;
+}
 .anchoCarrusel{   
     display: grid;
     place-content: center;
@@ -75,7 +77,10 @@ header{
 .registrarse{
     color:whitesmoke;
 }
-
+.centrarBoton{
+    margin-left: 50%;
+    margin-right: 50%;
+}
 
 .botonSubir{
     position: fixed;
@@ -85,4 +90,35 @@ header{
 footer{
     border-top: solid whitesmoke .5vh;
     background-color: black;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.sec1 {    
+    border: solid black .2em;
+    background-color: whitesmoke;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.sec2{
+    border: solid black .2em;
+    background-color: whitesmoke;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.sec3{
+    border: solid black .2em;
+    background-color: whitesmoke;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.palabraForm{
+    color: black;
+    font-weight: bold;
+}
+.total {
+    background-color: whitesmoke;
+    border-radius: 5px;
 }
