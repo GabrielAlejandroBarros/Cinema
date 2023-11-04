@@ -4,18 +4,15 @@ borrar.addEventListener("click", limpiar);
 function limpiar(){  
   pantalla.innerText = ""; 
 }
-function cambio(){
-  mostrar();
-}
+
 boton.addEventListener("click", mostrar);
   function mostrar(){
     const cantidad = document.getElementById("num").value;
     const pantalla = document.getElementById("pantalla");     
     let cant = document.getElementById("num").value;
-    num.addEventListener("change",cambio);   
-    categoria.addEventListener("change",cambio);
+    num.addEventListener("change",mostrar);   
+    categoria.addEventListener("change",mostrar);
     let camposValidos = nombreValido() && correoValido() && apellidoValido();
-
     if(cantidad < 6 && cantidad > 0 && camposValidos){
       let texto = pagar(cantidad) + "";    
       let element = document.createElement('input');
