@@ -1,8 +1,12 @@
 const boton = document.getElementById('resultado');
+const borrar = document.getElementById("borrar");
+borrar.addEventListener("click", limpiar);
+function limpiar(){  
+  pantalla.innerText = ""; 
+}
 function cambio(){
   mostrar();
 }
-
 boton.addEventListener("click", mostrar);
   function mostrar(){
     const cantidad = document.getElementById("num").value;
